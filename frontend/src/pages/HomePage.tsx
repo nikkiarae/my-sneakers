@@ -20,7 +20,7 @@ export function HomePage() {
 
   return (
     <main style={{ fontFamily: 'sans-serif', maxWidth: '640px', margin: '2rem auto', padding: '0 1rem' }}>
-      <h1>My Sneakers — Todos</h1>
+      <h1>Todos</h1>
 
       {isLoading && <p>Loading...</p>}
       {isError && <p style={{ color: 'red' }}>Could not load todos. Is the backend running?</p>}
